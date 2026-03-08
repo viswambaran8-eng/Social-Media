@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./about.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="about-hero">
+      <div class="about-container">
+        <div class="about-content">
+          <span class="eyebrow">Behind the Lens</span>
+          <h1 class="about-headline">
+            Our Mission is to <span class="accent-gold">Empower Voices.</span>
+          </h1>
+          <p class="about-subtext">
+            Born in 2026, we built this platform to bridge the gap between
+            digital content and human connection. No algorithms that hide your
+            talent—just pure, unfiltered creativity.
+          </p>
+          <div class="stats-row">
+            <div class="stat">
+              <h3 class="accent-gold">50M+</h3>
+              <p>Creators</p>
+            </div>
+            <div class="stat">
+              <h3 class="accent-gold">120+</h3>
+              <p>Countries</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="main-image-box">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1171&auto=format&fit=crop"
+              alt="The Team"
+              class="team-img"
+            />
+            <div class="experience-badge">
+              <span class="badge-text">Est. 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-story">
+      <div class="story-container">
+        <div class="story-image">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop"
+            alt="The beginning"
+            class="rounded-img"
+          />
+        </div>
+        <div class="story-content">
+          <h2 class="section-title">
+            Our <span class="accent-gold">Story</span>
+          </h2>
+          <p>
+            What started as a simple sketch on a napkin in 2024 has evolved into
+            a global movement. We realized that traditional social media was
+            becoming a place of "noise" rather than "connection."
+          </p>
+          <p>
+            By 2026, we launched with a single goal: to put the creator back in
+            the driver's seat. We don't just host content; we foster legacies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-vision">
+      <div class="mv-grid">
+        <div class="mv-card mission">
+          <div class="mv-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>
+            To democratize digital influence and provide every individual with
+            the tools to share their unique perspective with the world,
+            unhindered by complex algorithms.
+          </p>
+        </div>
+        <div class="mv-card vision">
+          <div class="mv-icon">👁️</div>
+          <h3>Our Vision</h3>
+          <p>
+            To become the world's most transparent and creator-centric
+            ecosystem, where authenticity is the primary currency and creativity
+            has no borders.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-features">
+      <div class="features-header">
+        <h2>Built for the <span class="accent-gold">Modern Creator</span></h2>
+      </div>
+      <div class="features-list">
+        <div class="feature-row">
+          <div class="f-item">
+            <span class="f-num">01</span>
+            <div>
+              <h4>Neural Filters</h4>
+              <p>
+                AI-driven enhancement that respects natural skin tones and
+                lighting.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="f-item">
+            <span class="f-num">02</span>
+            <div>
+              <h4>Lossless Uploads</h4>
+              <p>
+                Your 4K content stays 4K. No compression, no quality loss, ever.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="f-item">
+            <span class="f-num">03</span>
+            <div>
+              <h4>Creator Hub</h4>
+              <p>
+                Integrated monetization and brand partnership tools from day
+                one.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="platform-features">
+      <div class="section-title">
+        <h2>Built for the <span class="accent-gold">Modern Creator</span></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feat-card">
+          <div class="feat-icon">💎</div>
+          <h4>Neural Fidelity Filters</h4>
+          <p>
+            Our AI-driven rendering engine respects natural skin tones and
+            complex lighting, offering enhancement that feels professional, not
+            artificial.
+          </p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🚀</div>
+          <h4>Lossless 4K Streaming</h4>
+          <p>
+            Upload and stream content at maximum resolution. Your audience sees
+            exactly what you captured, with zero compression or quality
+            degradation.
+          </p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🤝</div>
+          <h4>Integrated Creator Hub</h4>
+          <p>
+            Manage brand partnerships, monetize your feed through direct tips,
+            and access deep-dive analytics all within one unified interface.
+          </p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🔒</div>
+          <h4>End-to-End Privacy</h4>
+          <p>
+            You own your data. Our advanced encryption ensures your messages,
+            content drafts, and user insights remain secure and private.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-members">
+      <div class="section-title">
+        <h2>
+          The Faces Behind <span class="accent-gold">The Innovation</span>
+        </h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <img
+            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=300&h=300&auto=format&fit=crop"
+            alt="Founder"
+          />
+          <h4>Alex Rivera</h4>
+          <p class="role">Co-Founder & CEO</p>
+          <p class="bio">
+            Visionary leader with 15+ years in product design. Alex believes
+            simplicity is the ultimate sophistication in social tech.
+          </p>
+        </div>
+        <div class="team-card">
+          <img
+            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&h=300&auto=format&fit=crop"
+            alt="CTO"
+          />
+          <h4>Sarah Chen</h4>
+          <p class="role">Chief Technology Officer</p>
+          <p class="bio">
+            AI and neural network specialist. Sarah pioneered our lossless
+            streaming protocol and fidelity filtering engine.
+          </p>
+        </div>
+        <div class="team-card">
+          <img
+            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=300&h=300&auto=format&fit=crop"
+            alt="Marketing"
+          />
+          <h4>David Kim</h4>
+          <p class="role">Head of Community</p>
+          <p class="bio">
+            Creator advocate. David manages global partnerships and ensures
+            creator needs drive our development roadmap.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="growth-stats">
+      <div class="stats-wrapper">
+        <div class="stat-box">
+          <h3 class="stat-number">50M+</h3>
+          <p>Active Creators</p>
+        </div>
+        <div class="stat-box">
+          <h3 class="stat-number">120K+</h3>
+          <p>Daily Reels Uploaded</p>
+        </div>
+        <div class="stat-box">
+          <h3 class="stat-number">200B+</h3>
+          <p>Engagements Monthly</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="cta-box">
+        <h2>
+          Your Journey to<br />
+          <span class="accent-gold">Authentic Influence</span> Starts Here.
+        </h2>
+        <p>
+          Join the movement of creators redefining social connection. Available
+          globally on iOS, Android, and Web.
+        </p>
+        <div class="cta-btns">
+          <a href="./error.html" class="btn btn-gold">Sign Up Now</a>
+          <a href="./error.html" class="btn btn-outline">Explore the Feed</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const tl = gsap.timeline({ defaults: { ease: "power4.out" } });
+
+    tl.from(".eyebrow", {
+      y: -20,
+      opacity: 1,
+      duration: 0.8,
+    })
+      .from(
+        ".about-headline",
+        {
+          x: -50,
+          opacity: 1,
+          duration: 1,
+        },
+        "-=0.4",
+      )
+      .from(
+        ".about-subtext",
+        {
+          y: 20,
+          opacity: 1,
+          duration: 0.8,
+        },
+        "-=0.6",
+      )
+      .from(
+        ".stat",
+        {
+          scale: 0.8,
+          opacity: 1,
+          stagger: 0.2,
+          duration: 0.6,
+        },
+        "-=0.4",
+      )
+      .from(
+        ".main-image-box",
+        {
+          x: 100,
+          opacity: 1,
+          duration: 1.2,
+        },
+        "-=1",
+      );
+
+    // Subtle scale animation on the badge
+    gsap.to(".experience-badge", {
+      scale: 1.1,
+      duration: 1.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Story Animation (Slide and Reveal)
+    gsap.from(".story-image", {
+      scrollTrigger: ".our-story",
+      x: -100,
+      opacity: 1,
+      duration: 1.2,
+      ease: "power3.out",
+    });
+
+    gsap.from(".story-content", {
+      scrollTrigger: ".our-story",
+      x: 100,
+      opacity: 1,
+      duration: 1.2,
+      delay: 0.2,
+    });
+
+    // Mission & Vision Stagger
+    gsap.from(".mv-card", {
+      scrollTrigger: ".mission-vision",
+      y: 50,
+      opacity: 1,
+      stagger: 0.3,
+      duration: 0.8,
+      ease: "back.out(1.7)",
+    });
+
+    // Features Sequential Entrance
+    gsap.from(".f-item", {
+      scrollTrigger: {
+        trigger: ".about-features",
+        start: "top 80%",
+      },
+      x: -30,
+      opacity: 1,
+      stagger: 0.2,
+      duration: 1,
+      ease: "expo.out",
+    });
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+    // Feature Cards Stagger (Slide Up)
+    gsap.from(".feat-card", {
+        scrollTrigger: {
+            trigger: ".platform-features",
+            start: "top 80%"
+        },
+        opacity: 1,
+        stagger: 0.2,
+        duration: 0.8,
+        ease: "power2.out"
+    });
+
+    // Team Cards Animation (Scale and Bounce)
+    gsap.from(".team-card", {
+        scrollTrigger: {
+            trigger: ".team-members",
+            start: "top 85%"
+        },
+        scale: 0.9,
+        opacity: 1,
+        stagger: 0.3,
+        duration: 0.8,
+        ease: "back.out(1.7)"
+    });
+
+    // Stat Numbers Counting Up (Requires custom function, simplified here)
+    gsap.from(".stat-number", {
+        scrollTrigger: {
+            trigger: ".growth-stats",
+            start: "top 90%"
+        },
+        y: 30,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 1
+    });
+
+    // Final CTA Box Entrance (Elastic Scale)
+    gsap.from(".cta-box", {
+        scrollTrigger: {
+            trigger: ".final-cta",
+            start: "top 90%"
+        },
+        scale: 0.9,
+        opacity: 1,
+        duration: 1.2,
+        ease: "elastic.out(1, 0.5)"
+    });
+});
+</script>

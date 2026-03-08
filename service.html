@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./service.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index2.html">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index2.html">Home 2</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./service.html">Services</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./blog.html">Blog</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="350">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="service-hero">
+      <div class="service-container">
+        <div class="service-content">
+          <span class="eyebrow">Professional Solutions</span>
+          <h1 class="service-headline">
+            Elevate Your <span class="accent-gold">Digital Presence</span>
+          </h1>
+          <p class="service-description">
+            Unlock professional-grade tools designed for the next generation of
+            social media. From advanced 4K rendering to neural analytics, we
+            provide the infrastructure for your creative empire.
+          </p>
+          <div class="service-actions">
+            <a href="./error.html" class="btn btn-primary">View Packages</a>
+            <a href="./error.html" class="btn btn-secondary">Book a Demo</a>
+          </div>
+        </div>
+
+        <div class="service-visual">
+          <div class="visual-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1074&auto=format&fit=crop"
+              alt="Services Overview"
+              class="hero-image"
+            />
+            <div class="floating-badge">
+              <span class="badge-icon">💎</span>
+              <span class="badge-text">Premium Suite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="glow-element"></div>
+    </section>
+
+    <section class="service-block content-sharing">
+      <div class="block-container">
+        <div class="block-visual">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop"
+            alt="High Quality Sharing"
+          />
+        </div>
+        <div class="block-text">
+          <h2 class="section-title">
+            Seamless <span class="accent-gold">Content Sharing</span>
+          </h2>
+          <p>
+            Our infrastructure is built for high-fidelity media. Share 4K photos
+            and lossless video reels that look stunning on any device. No heavy
+            compression—just your vision, shared perfectly.
+          </p>
+          <ul class="feature-list">
+            <li><span>✦</span> Pro-Grade Neural Filters</li>
+            <li><span>✦</span> Multi-Platform Distribution</li>
+            <li><span>✦</span> Smart Auto-Tagging AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block creator-growth invert">
+      <div class="block-container">
+        <div class="block-text">
+          <h2 class="section-title">
+            Advanced <span class="accent-gold">Growth Tools</span>
+          </h2>
+          <p>
+            Go beyond basic likes. Access deep-dive analytics that reveal when
+            your audience is most active and which content drives the most
+            conversion. Scale your influence with data-backed strategies.
+          </p>
+          <ul class="feature-list">
+            <li><span>✦</span> Brand Collaboration Portal</li>
+            <li><span>✦</span> Real-time Engagement Heatmaps</li>
+            <li><span>✦</span> SEO Content Optimization</li>
+          </ul>
+        </div>
+        <div class="block-visual">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop"
+            alt="Growth Analytics"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block community-building">
+      <div class="block-container">
+        <div class="block-visual">
+          <img
+            src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000&auto=format&fit=crop"
+            alt="Community Interaction"
+          />
+        </div>
+        <div class="block-text">
+          <h2 class="section-title">
+            Meaningful <span class="accent-gold">Community Building</span>
+          </h2>
+          <p>
+            Create a home for your fans. From private subscriber-only lounges to
+            interactive live-streaming rooms, we provide the spaces you need to
+            turn followers into a loyal community.
+          </p>
+          <ul class="feature-list">
+            <li><span>✦</span> Member-Only Chat Rooms</li>
+            <li><span>✦</span> Interactive Live Polls & Q&As</li>
+            <li><span>✦</span> Automated Moderation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-detail messaging">
+      <div class="content-wrapper">
+        <div class="text-side">
+          <span class="tag">Seamless Communication</span>
+          <h2>
+            Ultra-Secure <span class="accent-gold">Messaging System</span>
+          </h2>
+          <p>
+            Our messaging architecture combines speed with industry-leading
+            privacy. Whether it's a quick fan response or a high-stakes business
+            negotiation, our end-to-end encryption keeps your conversations
+            yours.
+          </p>
+          <div class="feature-pills">
+            <span class="pill">End-to-End Encryption</span>
+            <span class="pill">Voice & Video Notes</span>
+            <span class="pill">Priority Inbox</span>
+          </div>
+        </div>
+        <div class="visual-side">
+          <img
+            src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=1000&auto=format&fit=crop"
+            alt="Digital Messaging Interface"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="service-detail monetization invert">
+      <div class="content-wrapper">
+        <div class="text-side">
+          <span class="tag">Revenue Streams</span>
+          <h2>Smart <span class="accent-gold">Creator Monetization</span></h2>
+          <p>
+            Turn your passion into a sustainable career. We offer integrated
+            tools for direct fan support, subscription tiers, and digital
+            storefronts—all with lower transaction fees than the industry
+            standard.
+          </p>
+          <div class="feature-pills">
+            <span class="pill">One-Tap Tipping</span>
+            <span class="pill">Subscription Tiers</span>
+            <span class="pill">Merch Integration</span>
+          </div>
+        </div>
+        <div class="visual-side">
+          <img
+            src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000&auto=format&fit=crop"
+            alt="Mobile Financial Analytics"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="service-detail collaboration">
+      <div class="content-wrapper">
+        <div class="text-side">
+          <span class="tag">Strategic Partnerships</span>
+          <h2>
+            Professional <span class="accent-gold">Collaboration Tools</span>
+          </h2>
+          <p>
+            Bridging the gap between brands and creators. Our dashboard provides
+            transparent data sharing, contract management, and automated payout
+            systems to make every partnership professional and profitable.
+          </p>
+          <div class="feature-pills">
+            <span class="pill">Verified Marketplace</span>
+            <span class="pill">Smart Contracts</span>
+            <span class="pill">Campaign Analytics</span>
+          </div>
+        </div>
+        <div class="visual-side">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop"
+            alt="Professional Business Collaboration"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./dashboard.html">Dashboard</a>
+          <a href="./login.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./about.html">About</a>
+          <a href="./service.html">Services</a>
+          <a href="./blog.html">Blog</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error.html">Privacy Policy</a>
+          <a href="./error.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const tl = gsap.timeline({ defaults: { ease: "power4.out" } });
+
+    // Initial entrance sequence
+    tl.from(".eyebrow", {
+      y: -30,
+      opacity: 1,
+      duration: 0.8,
+    })
+      .from(
+        ".service-headline",
+        {
+          x: -50,
+          opacity: 1,
+          duration: 1,
+        },
+        "-=0.5",
+      )
+      .from(
+        ".service-description",
+        {
+          y: 20,
+          opacity: 1,
+          duration: 0.8,
+        },
+        "-=0.7",
+      )
+      .from(
+        ".btn",
+        {
+          scale: 0.8,
+          opacity: 1,
+          stagger: 0.2,
+          duration: 0.6,
+          ease: "back.out(1.7)",
+        },
+        "-=0.5",
+      )
+      .from(
+        ".service-visual",
+        {
+          x: 100,
+          opacity: 1,
+          duration: 1.2,
+        },
+        "-=1.2",
+      );
+
+    // Continuous floating animation for the image
+    gsap.to(".visual-wrapper", {
+      y: -20,
+      duration: 3,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+    });
+
+    // Suble pulsing for the badge
+    gsap.to(".floating-badge", {
+      scale: 1.05,
+      duration: 2,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut",
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Animate visuals and text on scroll
+    const blocks = gsap.utils.toArray(".service-block");
+
+    blocks.forEach((block) => {
+      const img = block.querySelector(".block-visual");
+      const text = block.querySelector(".block-text");
+      const listItems = block.querySelectorAll(".feature-list li");
+
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: block,
+          start: "top 75%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      tl.from(img, {
+        x: block.classList.contains("invert") ? 100 : -100,
+        opacity: 1,
+        duration: 1.2,
+        ease: "power3.out",
+      })
+        .from(
+          text,
+          {
+            y: 50,
+            opacity: 1,
+            duration: 1,
+          },
+          "-=0.8",
+        )
+        .from(
+          listItems,
+          {
+            x: -20,
+            opacity: 1,
+            stagger: 0.15,
+            duration: 0.6,
+          },
+          "-=0.5",
+        );
+    });
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+    const sections = gsap.utils.toArray('.service-detail');
+
+    sections.forEach((section) => {
+        const textElements = section.querySelectorAll('.tag, h2, p, .pill');
+        const visual = section.querySelector('.visual-side');
+
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: section,
+                start: "top 75%",
+                toggleActions: "play none none reverse"
+            }
+        });
+
+        // Animate Visual Image
+        tl.from(visual, {
+            x: section.classList.contains('invert') ? 100 : -100,
+            opacity: 1,
+            duration: 1,
+            ease: "power3.out"
+        })
+        // Stagger Text Content
+        .from(textElements, {
+            y: 30,
+            opacity: 1,
+            stagger: 0.1,
+            duration: 0.8,
+            ease: "power2.out"
+        }, "-=0.6");
+    });
+});
+</script>
