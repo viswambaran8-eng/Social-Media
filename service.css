@@ -1176,3 +1176,13 @@ section {
     .text-side h2 { font-size: 2.2rem; }
     .pill { font-size: 0.8rem; }
 }
+
+main {
+  margin-top: 13vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
+  }
+}

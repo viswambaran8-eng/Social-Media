@@ -780,6 +780,16 @@ body.no-scroll {
 
 /* hero */
 
+main {
+  margin-top: 13vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
+  }
+}
+
 .hero {
   height: 100%;
   display: flex;
@@ -787,6 +797,8 @@ body.no-scroll {
   align-items: center;
   padding: 50px 5%;
 }
+
+
 
 .container {
   max-width: 1400px;

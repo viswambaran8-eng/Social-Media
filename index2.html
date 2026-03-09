@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./index2.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./creators.html">Creators</a></li>
+            <li><a href="./reels.html">Reels</a></li>
+            <li><a href="./communities.html">Communities</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./creators.html">Creators</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./reels.html">Reels</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./communities.html">Communities</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main></main>
+
+    <section class="home-hero">
+      <div class="hero-inner">
+        <span class="badge">EST. 2026</span>
+        <h1>The <span class="gold-text">Social</span> Collective</h1>
+        <p>
+          Experience a premium digital atmosphere designed for creators,
+          thinkers, and innovators.
+        </p>
+        <div class="hero-btns">
+          <a href="./error2.html">
+            <button class="btn-main">Create Post</button>
+          </a>
+          <a href="./error2.html">
+            <button class="btn-outline">Explore Trends</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stories-wrapper">
+      <div class="stories-container" id="storiesBar">
+        <div class="story-item">
+          <div class="story-ring add-story">
+            <img src="./Assets/you_11zon.webp" alt="You" />
+            <span class="plus-icon">+</span>
+          </div>
+          <p>Your Story</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/Alex Rivera_11zon.webp" alt="User" />
+          </div>
+          <p>alexa_vibe</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/2_11zon.webp" alt="User" />
+          </div>
+          <p>tech_guru</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/3_11zon.webp" alt="User" />
+          </div>
+          <p>urban_lens</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/4_11zon.webp" alt="User" />
+          </div>
+          <p>dev_mind</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/5_11zon.webp" alt="User" />
+          </div>
+          <p>fit_flow</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/6_11zon.webp" alt="User" />
+          </div>
+          <p>nomad_soul</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/7_11zon.webp" alt="User" />
+          </div>
+          <p>chef_vignesh</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/10_11zon.webp" alt="User" />
+          </div>
+          <p>style_vogue</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/11_11zon.webp" alt="User" />
+          </div>
+          <p>arc_minimal</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/12_11zon.webp" alt="User" />
+          </div>
+          <p>beat_master</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/13_11zon.webp" alt="User" />
+          </div>
+          <p>canvas_queen</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/14_11zon.webp" alt="User" />
+          </div>
+          <p>pixel_warrior</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/16_11zon.webp" alt="User" />
+          </div>
+          <p>peak_seeker</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/17_11zon.webp" alt="User" />
+          </div>
+          <p>zen_vibe</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/18_11zon.webp" alt="User" />
+          </div>
+          <p>daily_vlog</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/David Kim_11zon.webp" alt="User" />
+          </div>
+          <p>remote_rob</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/David Chen_11zon.webp" alt="User" />
+          </div>
+          <p>chic_mode</p>
+        </div>
+        <div class="story-item">
+          <div class="story-ring">
+            <img src="./Assets/f3_11zon.webp" alt="User" />
+          </div>
+          <p>paws_n_gold</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feed-container">
+      <article class="feed-post">
+        <div class="post-header">
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=50"
+            class="user-thumb"
+          />
+          <div class="user-meta">
+            <strong>alexa_vibe</strong>
+            <span>Golden Hour, NYC</span>
+          </div>
+
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/city_11zon.webp" alt="Post Content" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+            <span class="icon bookmark">🔖</span>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>1,240 likes</strong></p>
+            <p class="caption">
+              <strong>alexa_vibe</strong> Chasing skylines and dreams in the
+              heart of the city. ✨ #UrbanVibes #NYC
+            </p>
+            <span class="time">2 HOURS AGO</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feed-post">
+        <div class="post-header">
+          <img src="./Assets/10_11zon.webp" class="user-thumb" />
+          <div class="user-meta">
+            <strong>tech_guru</strong>
+            <span>Laboratory Alpha</span>
+          </div>
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/technology_11zon (1).webp" alt="Technology" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>856 likes</strong></p>
+            <p class="caption">
+              <strong>tech_guru</strong> The future of hardware is here. Testing
+              the new neural interface today. 🦾 #FutureTech #AI
+            </p>
+            <span class="time">5 HOURS AGO</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feed-post">
+        <div class="post-header">
+          <img src="./Assets/12_11zon.webp" class="user-thumb" />
+          <div class="user-meta">
+            <strong>arc_minimal</strong>
+            <span>Stockholm, Sweden</span>
+          </div>
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/architecture_11zon.webp" alt="Architecture" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+            <span class="icon bookmark">🔖</span>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>2,105 likes</strong></p>
+            <p class="caption">
+              <strong>arc_minimal</strong> Symmetry is the language of the soul.
+              Exploring the intersection of glass and light. 🏛️ #Architecture
+              #Minimalism
+            </p>
+            <span class="time">1 HOUR AGO</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feed-post">
+        <div class="post-header">
+          <img src="./Assets/13_11zon.webp" class="user-thumb" />
+          <div class="user-meta">
+            <strong>chef_vignesh</strong>
+            <span>The Bistro Kitchen</span>
+          </div>
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/food_11zon (1).webp" alt="Gourmet Food" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>4,312 likes</strong></p>
+            <p class="caption">
+              <strong>chef_vignesh</strong> Flavor profile testing: Roasted base
+              with herb-infused drizzle. Coming to the menu this weekend. 🍴
+              #ChefLife #FineDining
+            </p>
+            <span class="time">45 MINUTES AGO</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feed-post">
+        <div class="post-header">
+          <img src="./Assets/16_11zon.webp" class="user-thumb" />
+          <div class="user-meta">
+            <strong>nomad_soul</strong>
+            <span>Banff National Park</span>
+          </div>
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/mountain_11zon.webp" alt="Mountain Range" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+            <span class="icon bookmark">🔖</span>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>9,870 likes</strong></p>
+            <p class="caption">
+              <strong>nomad_soul</strong> Waking up above the clouds makes every
+              mile worth it. The air is different up here. 🏔️ #Adventure
+              #ExploreCanada
+            </p>
+            <span class="time">8 HOURS AGO</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feed-post">
+        <div class="post-header">
+          <img src="./Assets/3_11zon.webp" class="user-thumb" />
+          <div class="user-meta">
+            <strong>fit_flow</strong>
+            <span>Iron Paradise Gym</span>
+          </div>
+          <button class="more-btn">•••</button>
+        </div>
+        <div class="post-content">
+          <img src="./Assets/fitness_11zon.webp" alt="Fitness training" />
+        </div>
+        <div class="post-footer">
+          <div class="action-bar">
+            <div class="left-actions">
+              <span class="icon heart-btn">❤</span>
+              <span class="icon">💬</span>
+              <span class="icon">🚀</span>
+            </div>
+          </div>
+          <div class="post-info">
+            <p class="likes"><strong>521 likes</strong></p>
+            <p class="caption">
+              <strong>fit_flow</strong> Discipline > Motivation. Morning session
+              done. Who else crushed their goals today? ⚡ #FitnessGoals
+              #Workout
+            </p>
+            <span class="time">10 HOURS AGO</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="reels-section">
+      <div class="reels-header">
+        <h2 class="reels-title">
+          Popular <span class="gold-text">Reels</span>
+        </h2>
+        <p>Trending short-form content from the community</p>
+      </div>
+
+      <div class="reels-grid">
+        <div class="reel-card">
+          <img
+            src="./Assets/reel_11zon.webp"
+            alt="Cinematic Reel"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">1.2M</span>
+            </div>
+          </div>
+        </div>
+        <div class="reel-card">
+          <img
+            src="./Assets/music_11zon.webp"
+            alt="Music Reel"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">850K</span>
+            </div>
+          </div>
+        </div>
+        <div class="reel-card">
+          <img
+            src="./Assets/travel reel_11zon.webp"
+            alt="Travel Reel"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">2.4M</span>
+            </div>
+          </div>
+        </div>
+        <div class="reel-card">
+          <img
+            src="./Assets/tech reel_11zon.webp"
+            alt="Tech Reel"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">920K</span>
+            </div>
+          </div>
+        </div>
+        <div class="reel-card">
+          <img
+            src="./Assets/dj_11zon.webp"
+            alt="dj"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">1.5M</span>
+            </div>
+          </div>
+        </div>
+        <div class="reel-card">
+          <img
+            src="./Assets/lifestyle_11zon.webp"
+            alt="Lifestyle Reel"
+          />
+          <div class="reel-overlay">
+            <div class="reel-stats">
+              <span class="play-icon">▶</span>
+              <span class="view-count">3.1M</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="discovery-grid">
+      <section class="suggested-section">
+        <div class="section-header">
+          <h3>Suggested for You</h3>
+          <button class="see-all">See All</button>
+        </div>
+        <div class="suggestions-list">
+          <div class="user-card">
+            <img
+              src="./Assets/2_11zon.webp"
+              alt="2"
+            />
+            <div class="user-info">
+              <strong>aura_design</strong>
+              <span>Followed by alexa_vibe</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="user-card">
+            <img
+              src="./Assets/4_11zon.webp"
+              alt="4"
+            />
+            <div class="user-info">
+              <strong>minimal_edge</strong>
+              <span>New to Social Hub</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="user-card">
+            <img
+              src="./Assets/9_11zon.webp"
+              alt="9"
+            />
+            <div class="user-info">
+              <strong>vogue_lens</strong>
+              <span>Suggested for you</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="hashtags-section">
+        <div class="section-header">
+          <h3>Trending Now</h3>
+        </div>
+        <div class="hashtags-grid">
+          <div class="tag-item">
+            <div class="tag-meta">
+              <span class="tag-name">#travel</span>
+              <span class="tag-count">1.2M posts</span>
+            </div>
+            <div class="trend-line">
+              <div class="trend-fill" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="tag-item">
+            <div class="tag-meta">
+              <span class="tag-name">#fitness</span>
+              <span class="tag-count">890K posts</span>
+            </div>
+            <div class="trend-line">
+              <div class="trend-fill" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="tag-item">
+            <div class="tag-meta">
+              <span class="tag-name">#photography</span>
+              <span class="tag-count">2.5M posts</span>
+            </div>
+            <div class="trend-line">
+              <div class="trend-fill" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="tag-item">
+            <div class="tag-meta">
+              <span class="tag-name">#foodie</span>
+              <span class="tag-count">640K posts</span>
+            </div>
+            <div class="trend-line">
+              <div class="trend-fill" style="width: 55%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+          <a href="./login2.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  window.onload = () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero Animation
+    gsap.from(".hero-inner > *", {
+      opacity: 1,
+      y: 30,
+      stagger: 0.2,
+      duration: 1,
+      ease: "power3.out",
+    });
+
+    // Story Bar Animation
+    gsap.from(".story-item", {
+      opacity: 1,
+      x: 50,
+      stagger: 0.1,
+      duration: 0.8,
+      ease: "back.out(1.7)",
+    });
+
+    // Feed Posts Reveal
+    document.querySelectorAll(".feed-post").forEach((post) => {
+      gsap.from(post, {
+        scrollTrigger: {
+          trigger: post,
+          start: "top 90%",
+        },
+        opacity: 1,
+        y: 50,
+        duration: 0.8,
+        ease: "power2.out",
+      });
+    });
+
+    // Simple Interactive Like
+    document.querySelectorAll(".heart-btn").forEach((btn) => {
+      btn.addEventListener("click", function () {
+        this.style.color =
+          this.style.color === "goldenrod" ? "white" : "goldenrod";
+        gsap.fromTo(
+          this,
+          { scale: 0.8 },
+          { scale: 1.3, duration: 0.2, yoyo: true, repeat: 1 },
+        );
+      });
+    });
+  };
+</script>
+
+<script>
+  // Register GSAP Plugin
+  gsap.registerPlugin(ScrollTrigger);
+
+  const initReelsAnimation = () => {
+    // Reveal Header
+    gsap.from(".reels-header", {
+      scrollTrigger: {
+        trigger: ".reels-section",
+        start: "top 80%",
+      },
+      y: 30,
+      opacity: 1,
+      duration: 1,
+      ease: "power2.out",
+    });
+
+    // Reveal Grid Items Staggered
+    gsap.from(".reel-card", {
+      scrollTrigger: {
+        trigger: ".reels-grid",
+        start: "top 85%",
+      },
+      scale: 0.8,
+      opacity: 1,
+      y: 40,
+      stagger: 0.15, // Creates that "pop-in" wave effect
+      duration: 0.8,
+      ease: "back.out(1.7)",
+    });
+  };
+
+  // Run on Load
+  window.addEventListener("DOMContentLoaded", initReelsAnimation);
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Target the stories wrapper
+  const storiesWrapper = document.querySelector(".stories-wrapper");
+
+  ScrollTrigger.create({
+    trigger: ".reels-section",
+    start: "bottom ", // When the bottom of Reels hits the top of the viewport
+    onEnter: () => {
+      // Remove sticky when scrolling down past Reels
+      storiesWrapper.classList.add("unstick");
+    },
+    onLeaveBack: () => {
+      // Re-enable sticky when scrolling back up into Reels
+      storiesWrapper.classList.remove("unstick");
+    },
+  });
+</script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animate Suggestions Entrance
+    gsap.from(".user-card", {
+      scrollTrigger: {
+        trigger: ".suggested-section",
+        start: "top 90%",
+      },
+      x: -50,
+      opacity: 1,
+      stagger: 0.2,
+      duration: 0.8,
+      ease: "power2.out",
+    });
+
+    // Animate Hashtag Progress Bars
+    gsap.from(".trend-fill", {
+      scrollTrigger: {
+        trigger: ".hashtags-section",
+        start: "top 90%",
+      },
+      width: 0,
+      duration: 1.5,
+      ease: "power4.out",
+      stagger: 0.1,
+    });
+
+    // Interaction: Follow Toggle
+    document.querySelectorAll(".follow-btn").forEach((btn) => {
+      btn.addEventListener("click", function () {
+        this.classList.toggle("following");
+        this.textContent = this.classList.contains("following")
+          ? "Following"
+          : "Follow";
+
+        // Tiny pop animation on click
+        gsap.from(this, { scale: 0.9, duration: 0.1 });
+      });
+    });
+  });
+</script>

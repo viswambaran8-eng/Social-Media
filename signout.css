@@ -30,7 +30,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1099;
 }
@@ -94,7 +94,6 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   height: 10vh;
   transition: background-color 0.4s ease;
-
 }
 
 /* The "Black Tone" class applied via JavaScript */
@@ -168,7 +167,7 @@ nav ul li a:hover::after {
 }
 
 .drop-toggle i {
-    color: goldenrod;
+  color: goldenrod;
   font-size: 14px;
   transition: transform 0.3s ease;
   pointer-events: none; /* Ensures the click registers on the span */
@@ -669,7 +668,6 @@ body.no-scroll {
   transition: all 0.3s ease;
 }
 
-
 /* Footer */
 
 /* --- Footer --- */
@@ -696,17 +694,19 @@ body.no-scroll {
   color: goldenrod;
 }
 
-.footer-links , .footer-newsletter {
+.footer-links,
+.footer-newsletter {
   margin-top: 30px;
 }
 
 @media screen and (max-width: 1000px) {
-  .footer-links , .footer-newsletter  {
+  .footer-links,
+  .footer-newsletter {
     margin-top: 10px;
   }
 }
 
-.footer-links h4, 
+.footer-links h4,
 .footer-newsletter h4 {
   color: goldenrod;
   /* text-shadow: 0 0 8px rgba(139, 0, 0, 0.7); */
@@ -764,17 +764,259 @@ body.no-scroll {
 
 /* --- Media Queries --- */
 @media (max-width: 1024px) {
-   .footer-grid {
+  .footer-grid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 }
 
 @media (max-width: 968px) {
-
   .footer-bottom {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+  }
+}
+
+/* Structure */
+
+/* ===== MAIN SECTION ===== */
+.Structure {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0a0a;
+  padding: 50px 0px;
+  margin-top: 80px;
+}
+
+/* ===== WRAPPER ===== */
+.signout-wrapper {
+  width: 90%;
+  max-width: 1000px;
+}
+/* ===== CARD ===== */
+.signout-card {
+  display: flex;
+
+  /* Goldenrod Glassmorphism */
+  background: rgba(218, 165, 32, 0.15);
+
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(218, 165, 32, 0.25);
+  border: 1px solid rgba(218, 165, 32, 0.35);
+}
+
+/* ===== LEFT SIDE ===== */
+.signout-left {
+  flex: 1;
+  padding: 50px;
+  color: #fff;
+}
+
+.signout-left h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.signout-left span {
+  color: transparent;
+  background: linear-gradient(
+    120deg,
+    goldenrod 0%,
+    #ffffff 50%,
+    goldenrod 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.signout-left ul {
+  list-style: none;
+  line-height: 2;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.signout-left ul li {
+  margin-bottom: 5px;
+}
+
+.tip {
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 10px 15px;
+  border: 2px solid rgba(218, 165, 32, 0.35);
+  border-radius: 12px;
+  width: max-content;
+}
+
+/* ===== RIGHT SIDE ===== */
+.signout-right {
+  flex: 1;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.signout-right h2 {
+  font-size: 24px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.signout-right .headings {
+  text-align: start;
+}
+
+.signout-right p {
+  margin-bottom: 30px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* ===== INPUTS ===== */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.password-group {
+  position: relative;
+}
+
+#toggleSignoutPassword {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 13px;
+  color: goldenrod;
+  font-weight: 600;
+}
+
+/* ===== BUTTON ===== */
+.signout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: linear-gradient(90deg, #daa520, #b8860b);
+  color: #fff;
+  transition: 0.3s;
+  font-family: "Lora", serif;
+}
+
+.signout-btn:hover {
+  opacity: 0.85;
+}
+
+.link {
+  width: 100%;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.links a {
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  opacity: 0.85;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 992px) {
+  .Structure {
+    height: 100%;
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .signout-card {
+    flex-direction: column;
+  }
+
+  .signout-left,
+  .signout-right {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Structure {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Structure {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signout-left h1 {
+    font-size: 22px;
+  }
+
+  .signout-right h2 {
+    font-size: 20px;
+  }
+
+  .signout-btn {
+    font-size: 14px;
+  }
+
+  .tip {
+    font-size: 12px;
   }
 }

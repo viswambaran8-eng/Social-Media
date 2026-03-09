@@ -785,12 +785,15 @@ body.no-scroll {
   display: flex;
   align-items: center;
   padding: 100px 8%;
-  background-image: radial-gradient(
-    circle at 10% 20%,
-    rgba(139, 0, 0, 0.05) 0%,
-    transparent 50%
-  );
   overflow: hidden;
+  
+  /* The linear-gradient acts as a dark 'tint' over the image */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url('./Assets/blog.hero_11zon_11zon.webp');
+    
+  background-size: cover;
+  background-position: center;
 }
 
 .blog-container {
@@ -1234,5 +1237,15 @@ body.no-scroll {
   }
   .sidebar-block {
     padding: 30px;
+  }
+}
+
+main {
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 5vh;
   }
 }

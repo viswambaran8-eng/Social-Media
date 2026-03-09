@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./creators.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./creators.html">Creators</a></li>
+            <li><a href="./reels.html">Reels</a></li>
+            <li><a href="./communities.html">Communities</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./creators.html">Creators</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./reels.html">Reels</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./communities.html">Communities</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main></main>
+
+    <section class="creator-hero">
+      <div class="hero-inner">
+        <div class="hero-badge">Verified Talent Hub</div>
+        <h1>Elevate Your <span class="gold-text">Influence</span></h1>
+        <p>
+          Connect with the world's most innovative medical and tech
+          storytellers. Shaping the future, one post at a time.
+        </p>
+        <div class="hero-btns">
+          <a href="./error2.html">
+            <button class="btn-gold">Join As Creator</button>
+          </a>
+          <a href="./error2.html">
+            <button class="btn-outline">Explore A Talent</button>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-user user-lg">
+          <img
+            src="./Assets/alexa_vibe_11zon.webp"
+            alt="num"
+          />
+        </div>
+        <div class="floating-user user-sm">
+          <img
+            src="./Assets/2_11zon.webp"
+            alt="num"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="creator-section">
+      <div class="section-title">
+        <h2>Featured <span class="gold-text">Stars</span></h2>
+        <p>Industry leaders with 1M+ reach</p>
+      </div>
+      <div class="featured-grid">
+        <div class="featured-card">
+          <div class="card-cover">
+            <img
+              src="./Assets/postcontent_11zon.webp" style="object-position:center;"
+              alt="person"
+            />
+          </div>
+          <div class="card-avatar">
+            <img
+              src="./Assets/users_11zon.webp"
+              alt="Users"
+            />
+          </div>
+          <h3>@dr_innovate</h3>
+          <p>Bio-Tech Specialist</p>
+          <a href="./error2.html">
+            <button class="follow-gold">Follow</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="creator-section bg-darker">
+      <div class="section-title">
+        <h2>Rising <span class="gold-text">Talent</span></h2>
+        <p>Creators gaining rapid momentum</p>
+      </div>
+      <div class="rising-list">
+        <div class="rising-item">
+          <div class="rank">#1</div>
+          <img
+            src="./Assets/3_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@lab_guru</strong>
+            <span>+12k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+        <div class="rising-item">
+          <div class="rank">#2</div>
+          <img
+            src="./Assets/4_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@pixel_doc</strong>
+            <span>+8.5k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+        <div class="rising-item">
+          <div class="rank">#3</div>
+          <img
+            src="./Assets/5_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@circuit_sensei</strong>
+            <span>+7.2k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+
+        <div class="rising-item">
+          <div class="rank">#4</div>
+          <img
+            src="./Assets/6_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@dna_designer</strong>
+            <span>+6.8k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+
+        <div class="rising-item">
+          <div class="rank">#5</div>
+          <img
+            src="./Assets/7_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@mesh_master</strong>
+            <span>+5.1k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+
+        <div class="rising-item">
+          <div class="rank">#6</div>
+          <img
+            src="./Assets/9_11zon.webp"
+            alt="num"
+          />
+          <div class="rising-info">
+            <strong>@neuro_vibe</strong>
+            <span>+4.9k this week</span>
+          </div>
+          <div class="growth-chart">📈</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="creator-discovery-hub">
+      <section class="creator-hub-section">
+        <div class="section-title">
+          <h2>Browse <span class="gold-text">Specialties</span></h2>
+        </div>
+        <div class="specialty-grid">
+          <div class="spec-card">
+            <img
+              src="./Assets/tech reel_11zon.webp"
+              alt="Tech"
+            />
+            <div class="spec-overlay">Bio-Technology</div>
+          </div>
+          <div class="spec-card">
+            <img
+              src="./Assets/lab_11zon.webp"
+              alt="Medical"
+            />
+            <div class="spec-overlay">Medical Innovation</div>
+          </div>
+          <div class="spec-card">
+            <img
+              src="./Assets/robo_11zon.webp"
+              alt="Robotics"
+            />
+            <div class="spec-overlay">AI & Robotics</div>
+          </div>
+          <div class="spec-card">
+            <img
+              src="./Assets/design_11zon.webp"
+              alt="Design"
+            />
+            <div class="spec-overlay">Digital Science Art</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="spotlight-section">
+        <div class="section-title text-center">
+          <h2>Creator <span class="gold-text">Spotlight</span></h2>
+        </div>
+        <div class="spotlight-card">
+          <div class="spotlight-visual">
+            <img
+              src="./Assets/17_11zon.webp"
+              alt="Spotlight User"
+            />
+          </div>
+          <div class="spotlight-details">
+            <span class="feat-badge">Creator of the Month</span>
+            <h3>@dna_designer</h3>
+            <p class="specialty">Bio-Architect | Synthesizing nature & data.</p>
+            <p class="bio">
+              Leading the conversation on sustainable synthetic materials in
+              medicine. 3.2M Reach.
+            </p>
+            <div class="spotlight-btns">
+              <a href="./error2.html">
+                <button class="gold-btn">View Profile</button>
+              </a>
+              <a href="./error2.html">
+                <button class="icon-btn">❤️</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="creator-hub-section bg-darker">
+        <div class="section-title flex-header">
+          <h2>Top <span class="gold-text">Influencers</span></h2>
+          <a href="./error2.html">
+            <button class="outline-btn">View Full Leaderboard</button>
+          </a>
+        </div>
+        <div class="leaderboard-list">
+          <div class="lead-item">
+            <div class="lead-rank">#1</div>
+            <img
+              src="./Assets/11_11zon.webp"
+              alt="Influencer"
+            />
+            <div class="lead-info">
+              <strong>@dr_innovate_joey</strong>
+              <span>Robotic Surgery Specialist</span>
+            </div>
+            <div class="lead-stats">1.8M Follows</div>
+            <a href="./error2.html">
+              <button class="check-btn">View</button>
+            </a>
+          </div>
+          <div class="lead-item">
+            <div class="lead-rank">#2</div>
+            <img
+              src="./Assets/14_11zon.webp"
+              alt="Influencer"
+            />
+            <div class="lead-info">
+              <strong>@ai_alexabliss_wwe</strong>
+              <span>Neural Interface Expert</span>
+            </div>
+            <div class="lead-stats">1.2M Follows</div>
+            <a href="./error2.html">
+              <button class="check-btn">View</button>
+            </a>
+          </div>
+          <div class="lead-item">
+            <div class="lead-rank">#3</div>
+            <img
+              src="./Assets/David Kim_11zon.webp"
+              alt="Influencer"
+            />
+            <div class="lead-info">
+              <strong>@quantum_quick</strong>
+              <span>Future Computing Vlogger</span>
+            </div>
+            <div class="lead-stats">980k Follows</div>
+            <a href="./error2.html">
+              <button class="check-btn">View</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+          <a href="./login2.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.onload = () => {
+    const tl = gsap.timeline();
+
+    // Hero Entrance
+    tl.from(".hero-inner > *", {
+      opacity: 1,
+      y: 30,
+      stagger: 0.2,
+      duration: 1,
+      ease: "power4.out",
+    })
+      .from(
+        ".user-lg",
+        { scale: 0, duration: 0.8, ease: "back.out(1.7)" },
+        "-=0.5",
+      )
+      .from(
+        ".user-sm",
+        { scale: 0, duration: 0.8, ease: "back.out(1.7)" },
+        "-=0.6",
+      );
+
+    // Floating Effect for Hero Images
+    gsap.to(".user-lg", {
+      y: 20,
+      duration: 2.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+    });
+    gsap.to(".user-sm", {
+      y: -15,
+      duration: 2,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+    });
+
+    // Featured Cards Reveal
+    gsap.from(".featured-card", {
+      scrollTrigger: { trigger: ".featured-grid", start: "top 80%" },
+      opacity: 1,
+      y: 50,
+      stagger: 0.15,
+      duration: 0.8,
+    });
+
+    // Rising List Reveal
+    gsap.from(".rising-item", {
+      scrollTrigger: { trigger: ".rising-list", start: "top 85%" },
+      x: -100,
+      opacity: 1,
+      stagger: 0.1,
+      duration: 0.6,
+      ease: "power2.out",
+    });
+  };
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener("load", () => {
+    // 1. Categories Entrance
+    gsap.from(".spec-card", {
+      scrollTrigger: {
+        trigger: ".specialty-grid",
+        start: "top 85%",
+      },
+      opacity: 1,
+      y: 40,
+      stagger: 0.15,
+      duration: 0.8,
+      ease: "power3.out",
+    });
+
+    // 2. Spotlight Spotlight Entrance
+    gsap.from(".spotlight-card", {
+      scrollTrigger: {
+        trigger: ".spotlight-section",
+        start: "top 80%",
+      },
+      opacity: 1,
+      scale: 0.8,
+      duration: 1,
+      ease: "power2.out",
+    });
+
+    // Sub-animation for spotlight details
+    gsap.from(".spotlight-details > *", {
+      scrollTrigger: {
+        trigger: ".spotlight-card",
+        start: "top 70%",
+      },
+      opacity: 1,
+      x: 50,
+      stagger: 0.15,
+      duration: 0.8,
+      ease: "power2.out",
+      delay: 0.2,
+    });
+
+    // 3. Influencer Leaderboard Staggered Entrance
+    gsap.from(".lead-item", {
+      scrollTrigger: {
+        trigger: ".leaderboard-list",
+        start: "top 85%",
+      },
+      opacity: 1,
+      x: -50,
+      stagger: 0.2,
+      duration: 0.7,
+      ease: "power2.out",
+    });
+  });
+</script>

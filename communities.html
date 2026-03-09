@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./communities.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./creators.html">Creators</a></li>
+            <li><a href="./reels.html">Reels</a></li>
+            <li><a href="./communities.html">Communities</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./creators.html">Creators</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./reels.html">Reels</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./communities.html">Communities</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main></main>
+
+    <section class="hero">
+      <div class="story-container">
+        <div class="story">
+          <div class="img-wrapper">
+            <img src="./Assets/Alex Rivera_11zon.webp" alt="Tech" />
+          </div>
+          <span>MedTech</span>
+        </div>
+        <div class="story">
+          <div class="img-wrapper">
+            <img src="./Assets/3_11zon.webp" alt="Bio" />
+          </div>
+          <span>Biotech</span>
+        </div>
+        <div class="story">
+          <div class="img-wrapper">
+            <img src="./Assets/17_11zon.webp" alt="Lab" />
+          </div>
+          <span>LabRats</span>
+        </div>
+        <div class="story">
+          <div class="img-wrapper">
+            <img src="./Assets/11_11zon.webp" alt="Device" />
+          </div>
+          <span>DevOps</span>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Connect with the <br /><span>Future of Care</span>
+        </h1>
+        <p class="hero-subtitle">
+          Join 500+ specialized groups sharing insights on the latest medical
+          device innovations.
+        </p>
+        <div class="cta-group">
+          <a href="./error2.html">
+            <button class="btn-primary">Explore All</button>
+          </a>
+          <a href="./error2.html">
+            <button class="btn-secondary">Create Community</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="communities-wrapper">
+      <div class="section-container">
+        <h2 class="section-label">Explore Communities</h2>
+        <div class="category-scroll">
+          <div class="cat-pill active" data-filter="all">All</div>
+          <div class="cat-pill" data-filter="entertainment">
+            🎬 Entertainment
+          </div>
+          <div class="cat-pill" data-filter="sport">⚽ Sport</div>
+          <div class="cat-pill" data-filter="news">📰 News</div>
+          <div class="cat-pill" data-filter="healthy">🌿 Healthy</div>
+          <div class="cat-pill" data-filter="food">🍕 Food</div>
+        </div>
+      </div>
+
+      <div class="section-container">
+        <div class="featured-grid" id="community-grid">
+          <div class="featured-card" data-category="entertainment">
+            <img
+              src="./Assets/concert_11zon.webp"
+              alt="Concert"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@backstage_pass</strong>
+                <span>45k Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card" data-category="entertainment">
+            <img
+              src="./Assets/dj_11zon.webp"
+              alt="DJ"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@cinema_vibes</strong>
+                <span>120k Members</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="sport">
+            <img
+              src="./Assets/cycling_11zon.webp"
+              alt="cycling"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@elite_athletes</strong>
+                <span>88k Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card" data-category="sport">
+            <img
+              src="./Assets/court_11zon_11zon.webp"
+              alt="Court"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@court_side</strong>
+                <span>34k Members</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="news">
+            <img
+              src="./Assets/newspaper_11zon_11zon.webp"
+              alt="Newspaper"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@global_daily</strong>
+                <span>200k Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card" data-category="news">
+            <img
+              src="./Assets/tech reel_11zon.webp"
+              alt="Tech News"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@breaking_tech</strong>
+                <span>67k Members</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="healthy">
+            <img
+              src="./Assets/yoga_11zon.webp"
+              alt="Yoga"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@mindful_living</strong>
+                <span>52k Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card" data-category="healthy">
+            <img
+              src="./Assets/gym_11zon.webp"
+              alt="Gym"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@holistic_health</strong>
+                <span>29k Members</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="food">
+            <img
+              src="./Assets/food_11zon (1).webp"
+              alt="Gourmet"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@chef_table</strong>
+                <span>150k Members</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card" data-category="food">
+            <img
+              src="./Assets/noodles_11zon_11zon.webp"
+              alt="Noodles"
+            />
+            <div class="card-overlay">
+              <div class="overlay-info">
+                <strong>@street_eats</strong>
+                <span>95k Members</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container">
+        <h2 class="section-label">Popular Communities</h2>
+        <div class="popular-list">
+          <div class="pop-item">
+            <div class="pop-info">
+              <img
+                src="./Assets/pop1_11zon.webp"
+                class="pop-avatar"
+                alt="User1"
+              />
+              <div>
+                <h4>Global Ventilator Network</h4>
+                <p>12.5k Members • 40 posts today</p>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="join-btn">Join</button>
+            </a>
+          </div>
+          <div class="pop-item">
+            <div class="pop-info">
+              <img
+                src="./Assets/pop2_11zon.webp"
+                class="pop-avatar"
+                alt="User"
+              />
+              <div>
+                <h4>Wearable Tech Forum</h4>
+                <p>8.2k Members • 15 posts today</p>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="join-btn">Join</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-cta-section">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2 class="gold-text">Ready to contribute?</h2>
+          <p>
+            Join over 2.5 million enthusiasts sharing their passions every day.
+          </p>
+          <a href="./error2.html">
+            <button class="main-join-btn" onclick="triggerJoin()">
+              Join the Network
+            </button>
+          </a>
+        </div>
+        <div class="cta-visual">
+          <div class="floating-user user-1">
+            <img src="./Assets/f1_11zon.webp" alt="User" />
+          </div>
+          <div class="floating-user user-2">
+            <img src="./Assets/f2_11zon.webp" alt="User" />
+          </div>
+          <div class="floating-user user-3">
+            <img src="./Assets/f3_11zon.webp" alt="User" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discussions-section">
+      <h2
+        class="section-label"
+        style="
+          border-left: 4px solid #daa520;
+          padding-left: 15px;
+          margin-bottom: 30px;
+        "
+      >
+        Active Discussions
+      </h2>
+
+      <div class="discussion-container">
+        <div class="disc-card">
+          <div class="disc-header">
+            <img
+              src="./Assets/photography_11zon.webp"
+              class="comm-icon"
+              alt="Photography"
+            />
+            <div class="comm-meta">
+              <h4>Photography Club</h4>
+              <span style="color: #daa520">32 new replies</span>
+            </div>
+            <div class="status-dot online"></div>
+          </div>
+          <p class="disc-body">
+            "What are the best settings for capturing the Milky Way on a 35mm
+            prime lens?"
+          </p>
+          <div
+            class="disc-footer"
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 20px;
+              flex-wrap: wrap;
+              gap: 10px;
+            "
+          >
+            <div class="tags"><span class="tag">#Astrophotography</span></div>
+            <a href="./error2.html">
+              <button class="view-thread">View Discussion</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="disc-card">
+          <div class="disc-header">
+            <img
+              src="./Assets/gamimg_11zon.webp"
+              class="comm-icon"
+              alt="Gaming"
+            />
+            <div class="comm-meta">
+              <h4>Gaming Hub</h4>
+              <span style="color: #daa520">156 active players</span>
+            </div>
+            <div class="status-dot online"></div>
+          </div>
+          <p class="disc-body">
+            "The new patch notes just dropped. Is the nerf to the sniper rifle
+            too much or balanced?"
+          </p>
+          <div
+            class="disc-footer"
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 20px;
+              flex-wrap: wrap;
+              gap: 10px;
+            "
+          >
+            <div class="tags"><span class="tag">#PatchNotes</span></div>
+            <a href="./error2.html">
+              <button class="view-thread">View Discussion</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+          <a href="./login2.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  // GSAP Entrance Animations
+  window.addEventListener("load", () => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+    // Animate stories first
+    tl.from(".story", {
+      y: -30,
+      opacity: 1,
+      stagger: 0.1,
+      duration: 0.8,
+    })
+      // Animate text content
+      .from(
+        ".hero-title",
+        {
+          y: 50,
+          opacity: 1,
+          duration: 1,
+        },
+        "-=0.4",
+      )
+      .from(
+        ".hero-subtitle",
+        {
+          opacity: 1,
+          duration: 0.8,
+        },
+        "-=0.6",
+      )
+      .from(
+        ".cta-group button",
+        {
+          scale: 0.8,
+          opacity: 1,
+          stagger: 0.2,
+          duration: 0.5,
+        },
+        "-=0.4",
+      );
+  });
+
+  // Interactive hover effect for stories
+  document.querySelectorAll(".story").forEach((item) => {
+    item.addEventListener("mouseenter", () => {
+      gsap.to(item.querySelector("img"), { scale: 1.1, duration: 0.3 });
+    });
+    item.addEventListener("mouseleave", () => {
+      gsap.to(item.querySelector("img"), { scale: 1, duration: 0.3 });
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const pills = document.querySelectorAll(".cat-pill");
+    const cards = document.querySelectorAll(".featured-card");
+
+    pills.forEach((pill) => {
+      pill.addEventListener("click", () => {
+        // Update active state
+        document.querySelector(".cat-pill.active").classList.remove("active");
+        pill.classList.add("active");
+
+        const filterValue = pill.getAttribute("data-filter");
+
+        // 1. Fade out current cards
+        gsap.to(cards, {
+          opacity: 1,
+          scale: 0.9,
+          duration: 0.3,
+          onComplete: () => {
+            // 2. Filter logic
+            cards.forEach((card) => {
+              const category = card.getAttribute("data-category");
+              if (filterValue === "all" || category === filterValue) {
+                card.classList.remove("hidden");
+              } else {
+                card.classList.add("hidden");
+              }
+            });
+
+            // 3. Animate the filtered set back in
+            gsap.to(".featured-card:not(.hidden)", {
+              opacity: 1,
+              scale: 1,
+              duration: 0.4,
+              stagger: 0.08,
+              ease: "power2.out",
+            });
+          },
+        });
+      });
+    });
+  });
+</script>
+
+<script>
+  // Register Animations on Load
+  window.addEventListener("DOMContentLoaded", () => {
+    // 1. Entrance Sequence
+    const tl = gsap.timeline();
+
+    tl.from(".cta-card", {
+      opacity: 1,
+      scale: 0.9,
+      duration: 1,
+      ease: "back.out(1.2)",
+    })
+      .from(
+        ".floating-user",
+        { opacity: 1, y: 20, stagger: 0.2, duration: 0.6 },
+        "-=0.5",
+      )
+      .from(
+        ".disc-card",
+        { opacity: 1, x: -30, stagger: 0.2, duration: 0.8 },
+        "-=0.3",
+      );
+
+    // 2. Continuous Floating Effect
+    gsap.to(".floating-user", {
+      y: -10,
+      duration: 2,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+      stagger: 0.4,
+    });
+  });
+
+  // Join Button Function
+  function triggerJoin() {
+    const btn = document.querySelector(".main-join-btn");
+    btn.innerText = "Welcome Aboard! ✨";
+
+    gsap.to(btn, {
+      backgroundColor: "#ffffff",
+      color: "#000000",
+      scale: 1.1,
+      duration: 0.3,
+    });
+  }
+</script>

@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./explore.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./creators.html">Creators</a></li>
+            <li><a href="./reels.html">Reels</a></li>
+            <li><a href="./communities.html">Communities</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./creators.html">Creators</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./reels.html">Reels</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./communities.html">Communities</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main></main>
+
+    <section class="explore-hero">
+      <div class="hero-content">
+        <div class="hero-text-gate">
+          <span class="eyebrow">Discover the World</span>
+          <h1>Explore <span class="gold-text">New Horizons</span></h1>
+          <p>
+            Uncover trending creators, viral moments, and global perspectives
+            curated just for you.
+          </p>
+        </div>
+
+        <div class="search-hub">
+          <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <form action="./error2.html">
+              <input
+                type="text"
+                placeholder="Search creators, hashtags, or topics..."
+                id="exploreSearch"
+              />
+              <button type="submit" class="search-btn">Find</button>
+            </form>
+          </div>
+          <div class="trending-pills">
+            <span class="pill-label">Trending:</span>
+            <div class="pill-scroll">
+              <span class="pill">#Cyberpunk</span>
+              <span class="pill">#DigitalArt</span>
+              <span class="pill">#Adventure</span>
+              <span class="pill">#TechUpdate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual-matrix">
+        <div class="matrix-item item-1">
+          <img
+            src="./Assets/tech reel_11zon.webp"
+            alt="Tech"
+          />
+        </div>
+        <div class="matrix-item item-2">
+          <img
+            src="./Assets/travel reel_11zon.webp"
+            alt="travel reel"
+          />
+        </div>
+        <div class="matrix-item item-3">
+          <img
+            src="./Assets/city_11zon.webp"
+            alt="City"
+          />
+        </div>
+        <div class="matrix-item item-4">
+          <img
+            src="./Assets/5_11zon.webp"
+            alt="num"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-section">
+      <div class="section-header">
+        <h2>Trending Topic <span class="gold-text">Now</span></h2>
+        <div class="filter-pills">
+          <span class="filter-btn active" data-filter="all">All</span>
+          <span class="filter-btn" data-filter="design">Design</span>
+          <span class="filter-btn" data-filter="tech">Tech</span>
+          <span class="filter-btn" data-filter="biomed">Bio-Med</span>
+        </div>
+      </div>
+
+      <div class="trending-grid" id="trendingGrid">
+        <div class="post-card tall" data-category="tech">
+          <img
+            src="./Assets/aesthetic_11zon_11zon.webp"
+            alt="aesthetic"
+          />
+          <div class="post-overlay"><span>9.2k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="biomed">
+          <img
+            src="./Assets/shoot_11zon.webp"
+            alt="shoot"
+          />
+          <div class="post-overlay"><span>4.1k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="design">
+          <img
+            src="./Assets/design_11zon.webp"
+            alt="Design"
+          />
+          <div class="post-overlay"><span>3.2k Likes</span></div>
+        </div>
+        <div class="post-card wide" data-category="tech">
+          <img
+            src="./Assets/tech reel_11zon.webp"
+            alt="tech"
+          />
+          <div class="post-overlay"><span>12k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="biomed">
+          <img
+            src="./Assets/feed_11zon_11zon.webp"
+            alt="feed"
+          />
+          <div class="post-overlay"><span>5.5k Likes</span></div>
+        </div>
+        <div class="post-card tall" data-category="design">
+          <img
+            src="./Assets/img_11zon_11zon.webp"
+            alt="img"
+          />
+          <div class="post-overlay"><span>8.1k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="tech">
+          <img
+            src="./Assets/hardware_11zon.webp"
+            alt="Hardware"
+          />
+          <div class="post-overlay"><span>6.7k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="biomed">
+          <img
+            src="./Assets/lab_11zon.webp"
+            alt="Lab Work"
+          />
+          <div class="post-overlay"><span>2.9k Likes</span></div>
+        </div>
+        <div class="post-card wide" data-category="design">
+          <img
+            src="./Assets/ui paint_11zon.webp"
+            alt="UI Design"
+          />
+          <div class="post-overlay"><span>10.4k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="tech">
+          <img
+            src="./Assets/vlog_11zon.webp"
+            alt="vlog"
+          />
+          <div class="post-overlay"><span>7.3k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="biomed">
+          <img
+            src="./Assets/sharing_11zon.webp"
+            alt="sharing"
+          />
+          <div class="post-overlay"><span>4.8k Likes</span></div>
+        </div>
+        <div class="post-card" data-category="design">
+          <img
+            src="./Assets/communication_11zon.webp"
+            alt="communication"
+          />
+          <div class="post-overlay"><span>1.2k Likes</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="explore-discovery-container">
+      <section class="categories-section">
+        <div class="section-header">
+          <h2>Popular <span class="gold-text">Categories</span></h2>
+        </div>
+        <div class="category-grid">
+          <div class="cat-card" data-cat="Travel">
+            <img
+              src="./Assets/travel_11zon.webp"
+              alt="Travel"
+            />
+            <div class="cat-overlay"><span>Travel</span></div>
+          </div>
+          <div class="cat-card" data-cat="Fashion">
+            <img
+              src="./Assets/fashion_11zon.webp"
+              alt="Fashion" style="object-position: top;"
+            />
+            <div class="cat-overlay"><span>Fashion</span></div>
+          </div>
+          <div class="cat-card" data-cat="Photography">
+            <img
+              src="./Assets/photography_11zon.webp"
+              alt="Photography"
+            />
+            <div class="cat-overlay"><span>Photography</span></div>
+          </div>
+          <div class="cat-card" data-cat="Food">
+            <img
+              src="./Assets/food_11zon (1).webp"
+              alt="Food"
+            />
+            <div class="cat-overlay"><span>Food</span></div>
+          </div>
+          <div class="cat-card" data-cat="Fitness">
+            <img
+              src="./Assets/fitness_11zon.webp"
+              alt="Fitness"
+            />
+            <div class="cat-overlay"><span>Fitness</span></div>
+          </div>
+          <div class="cat-card" data-cat="Technology">
+            <img
+              src="./Assets/technology_11zon (1).webp"
+              alt="Technology"
+            />
+            <div class="cat-overlay"><span>Technology</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hashtags-section">
+        <div class="section-header">
+          <h2>Trending <span class="gold-text">Hashtags</span></h2>
+        </div>
+        <div class="hashtag-list">
+          <div class="tag-row">
+            <div class="tag-info">
+              <span class="tag-name">#wanderlust2026</span>
+              <span class="tag-stats">2.4M posts</span>
+            </div>
+            <div class="trend-bar-bg">
+              <div class="trend-bar-fill" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="tag-row">
+            <div class="tag-info">
+              <span class="tag-name">#tech_innovation</span>
+              <span class="tag-stats">1.8M posts</span>
+            </div>
+            <div class="trend-bar-bg">
+              <div class="trend-bar-fill" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="tag-row">
+            <div class="tag-info">
+              <span class="tag-name">#minimal_vibe</span>
+              <span class="tag-stats">950K posts</span>
+            </div>
+            <div class="trend-bar-bg">
+              <div class="trend-bar-fill" data-width="65%"></div>
+            </div>
+          </div>
+          <div class="tag-row">
+            <div class="tag-info">
+              <span class="tag-name">#health_is_wealth</span>
+              <span class="tag-stats">720K posts</span>
+            </div>
+            <div class="trend-bar-bg">
+              <div class="trend-bar-fill" data-width="45%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+          <a href="./login2.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  // Updated Entrance Animation
+  const tl = gsap.timeline();
+
+  tl.from(".explore-hero", {
+    opacity: 1,
+    duration: 1,
+  })
+    .from(
+      ".hero-content > *",
+      {
+        opacity: 1,
+        x: -30,
+        stagger: 0.15,
+        duration: 0.8,
+        ease: "power2.out",
+      },
+      "-=0.5",
+    )
+    .from(
+      ".matrix-item",
+      {
+        opacity: 1,
+        y: 50,
+        stagger: 0.1,
+        duration: 0.6,
+        ease: "back.out(1.2)",
+      },
+      "-=0.4",
+    );
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const cards = document.querySelectorAll(".post-card");
+
+    // 1. Initial Entrance Animation
+    gsap.from(".post-card", {
+      scrollTrigger: {
+        trigger: ".trending-grid",
+        start: "top 80%",
+      },
+      y: 40,
+      opacity: 1,
+      scale: 0.9,
+      stagger: 0.05,
+      duration: 0.8,
+      ease: "power2.out",
+    });
+
+    // 2. Filter Functionality
+    filterBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        // Remove active class from all
+        filterBtns.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const filterValue = btn.getAttribute("data-filter");
+
+        // GSAP Filtering Animation
+        cards.forEach((card) => {
+          const cardCategory = card.getAttribute("data-category");
+
+          if (filterValue === "all" || cardCategory === filterValue) {
+            // Show item
+            gsap.to(card, {
+              duration: 0.4,
+              scale: 1,
+              autoAlpha: 1,
+              display: "block",
+              ease: "power2.inOut",
+            });
+          } else {
+            // Hide item
+            gsap.to(card, {
+              duration: 0.4,
+              scale: 0.8,
+              autoAlpha: 0,
+              display: "none",
+              ease: "power2.inOut",
+            });
+          }
+        });
+      });
+    });
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener("DOMContentLoaded", () => {
+    // 1. Categories Entrance
+    gsap.from(".cat-card", {
+      scrollTrigger: {
+        trigger: ".category-grid",
+        start: "top 85%",
+      },
+      opacity: 1,
+      y: 30,
+      stagger: 0.1,
+      duration: 0.8,
+      ease: "power2.out",
+    });
+
+    // 2. Hashtag Trend Bars Animation
+    gsap.to(".trend-bar-fill", {
+      scrollTrigger: {
+        trigger: ".hashtag-list",
+        start: "top 85%",
+      },
+      width: (i, el) => el.getAttribute("data-width"),
+      duration: 1.5,
+      stagger: 0.2,
+      ease: "power4.out",
+    });
+
+    // 3. Functional: Category Interaction
+    document.querySelectorAll(".cat-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        const category = card.getAttribute("data-cat");
+        console.log(`Filtering for: ${category}`); // Replace with your actual filter logic
+
+        // Visual Feedback
+        gsap.to(card, { scale: 0.95, duration: 0.1, yoyo: true, repeat: 1 });
+      });
+    });
+  });
+</script>

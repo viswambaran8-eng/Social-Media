@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="icon" href="./Assets/icon.webp" />
+    <link rel="stylesheet" href="./reels.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+        <div class="container1">
+          <h3>Welcome To Stackly Daily Social Sphere</h3>
+        </div>
+        <div class="container2">
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>(123)456-7890</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <p>Support@stackly.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="logo">
+          <a href="./index2.html">
+            <img src="./Assets/logo.webp" alt="Logo" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="./index2.html">Home</a>
+
+              <span class="drop-toggle">
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+
+              <ul class="dropdown-menu">
+                <li><a href="./index.html">Home 1</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./creators.html">Creators</a></li>
+            <li><a href="./reels.html">Reels</a></li>
+            <li><a href="./communities.html">Communities</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <div class="login">
+            <!-- <a class="btn" href="./app.html">Buy Now</a> -->
+
+            <a href="./login2.html">
+              <i class="fa-regular fa-circle-user"></i>
+            </a>
+          </div>
+
+          <div class="mobilebar">
+            <div class="hamburger-box">
+              <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li
+          class="has-dropdown menu-item"
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+        >
+          <div class="dropdown-header">
+            <a href="./index2.html">Home</a>
+            <span class="drop-caret" id="home-caret">▾</span>
+          </div>
+          <ul class="submenu" id="home-dropdown">
+            <li><a href="./index.html">Home 1</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="150">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="200">
+          <a href="./creators.html">Creators</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="250">
+          <a href="./reels.html">Reels</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="300">
+          <a href="./communities.html">Communities</a>
+        </li>
+        <li class="menu-item" data-aos="fade-up-right" data-aos-delay="400">
+          <a href="./login2.html">Login</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-login" data-aos="fade-up-right" data-aos-delay="450">
+        <!-- <a href="./app.html">
+            <button class="login-btn">Buy Now</button>
+          </a> -->
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main></main>
+
+    <section class="reels-hero">
+      <div class="reels-glow"></div>
+
+      <div class="reels-hero-inner">
+        <div class="reels-hero-text">
+          <div class="live-tag">
+            <span class="dot"></span> 12.4K Creators Live
+          </div>
+          <h1>Immersive <br /><span class="gold-text">Short Stories</span></h1>
+          <p>
+            Dive into a world of bite-sized innovation. From medical
+            breakthroughs to tech tutorials, experience the future in 60
+            seconds.
+          </p>
+
+          <div class="reels-cta-group">
+            <div class="reels-search">
+              <input
+                type="text"
+                placeholder="Search reels (e.g. #biotech)..."
+              />
+              <button class="gold-icon-btn">🔍</button>
+            </div>
+            <div class="trending-mini">
+              <span>Trending:</span>
+              <a href="./error2.html">#LabLife</a>
+              <a href="./error2.html">#TechTips</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="reels-visual-strip">
+          <div class="strip-column column-up">
+            <div class="strip-item">
+              <img
+                src="./Assets/reel_11zon.webp"
+                alt="Reel 1"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/sharing_11zon.webp"
+                alt="Reel 2"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/feed_11zon_11zon.webp"
+                alt="Reel 3"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/vlog_11zon.webp"
+                alt="Reel 1"
+              />
+            </div>
+          </div>
+          <div class="strip-column column-down">
+            <div class="strip-item">
+              <img
+                src="./Assets/lifestyle_11zon.webp"
+                alt="Reel 4"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/seminar_11zon.webp"
+                alt="Reel 5"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/yoga_11zon.webp"
+                alt="Reel 6"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/gym_11zon.webp"
+                alt="Reel 4"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/fitness_11zon.webp"
+                alt="Reel 1"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/communication_11zon.webp"
+                alt="Reel 2"
+              />
+            </div>
+            <div class="strip-item">
+              <img
+                src="./Assets/design_11zon.webp"
+                alt="Reel 3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="reels-page-container">
+      <section class="trending-reels-section">
+        <div class="section-header">
+          <h2>Trending <span class="gold-text">Reels</span></h2>
+        </div>
+        <div class="trending-slider">
+          <div class="trend-item">
+            <img
+              src="./Assets/concert_11zon.webp"
+              alt="T1"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 22k</span>
+              <span>💬 890</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/court_11zon_11zon.webp"
+              alt="T2"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 22k</span>
+              <span>💬 890</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/feed_11zon_11zon.webp"
+              alt="T3"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 22k</span>
+              <span>💬 890</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/fitness_11zon.webp"
+              alt="T4"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 22k</span>
+              <span>💬 890</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/cycling_11zon.webp"
+              alt="T5"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 12k</span>
+              <span>💬 400</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/food_11zon (1).webp"
+              alt="T6"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 8.5k</span>
+              <span>💬 210</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/img_11zon_11zon.webp"
+              alt="T7"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 32k</span>
+              <span>💬 1.1k</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/Community Interaction_11zon.webp"
+              alt="T8"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 15k</span>
+              <span>💬 300</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/architecture_11zon.webp"
+              alt="T9"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 22k</span>
+              <span>💬 890</span>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img
+              src="./Assets/gym_11zon.webp"
+              alt="T10"
+            />
+            <div class="trend-hover-stats">
+              <span>❤️ 19k</span>
+              <span>💬 540</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="music-library-section">
+        <div class="section-header">
+          <h2>Music <span class="gold-text">Library</span></h2>
+        </div>
+        <div class="music-list">
+          <div class="music-item">
+            <div class="music-info">
+              <div class="visualizer-bars">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="song-details">
+                <strong>Cybernetic Pulse</strong>
+                <span>Trending Audio • 1.4M Reels</span>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="use-audio-btn">Use Sound</button>
+            </a>
+          </div>
+          <div class="music-item">
+            <div class="music-info">
+              <div class="visualizer-bars">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="song-details">
+                <strong>Lab Ambience Vol. 4</strong>
+                <span>Original Audio • 85k Reels</span>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="use-audio-btn">Use Sound</button>
+            </a>
+          </div>
+          <div class="music-item">
+            <div class="music-info">
+              <div class="visualizer-bars">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="song-details">
+                <strong>Neural Sync [Echo]</strong>
+                <span>Trending Audio • 2.1M Reels</span>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="use-audio-btn">Use Sound</button>
+            </a>
+          </div>
+          <div class="music-item">
+            <div class="music-info">
+              <div class="visualizer-bars">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="song-details">
+                <strong>Biotech Rhythm</strong>
+                <span>Recommended for You • 120k Reels</span>
+              </div>
+            </div>
+            <a href="./error2.html">
+              <button class="use-audio-btn">Use Sound</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="reels-highlights-container">
+      <section class="highlights-section">
+        <div class="section-header">
+          <h2>Creator <span class="gold-text">Highlights</span></h2>
+        </div>
+        <div class="highlight-banner">
+          <img
+            src="./Assets/index2csshome_11zon.webp"
+            alt="Highlight"
+          />
+          <div class="highlight-content">
+            <div class="creator-profile">
+              <img
+                src="./Assets/alexa_vibe_11zon.webp"
+                alt="Avatar"
+              />
+              <span>@dr_innovate</span>
+            </div>
+            <h3>The Future of Surgical Robotics: Week 12 Recap</h3>
+            <div class="engagement-bar">
+              <a href="./error2.html">
+                <button class="engage-btn">❤️ 120k</button>
+              </a>
+              <a href="./error2.html">
+                <button class="engage-btn">💬 2.4k</button>
+              </a>
+              <a href="./error2.html">
+                <button class="engage-btn">🔗 Share</button>
+              </a>
+              <a href="./error2.html">
+                <button class="follow-pill">Follow</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommended-section">
+        <div class="section-header">
+          <h2>Recommended <span class="gold-text">For You</span></h2>
+        </div>
+        <div class="rec-grid">
+          <div class="rec-card">
+            <img
+              src="./Assets/lab_11zon.webp"
+              alt="Rec 1"
+            />
+            <div class="rec-overlay">
+              <div class="rec-stats">
+                <span>❤️ 15k</span>
+                <span>💬 300</span>
+              </div>
+              <button class="rec-follow">+</button>
+            </div>
+          </div>
+          <div class="rec-card">
+            <img
+              src="./Assets/music_11zon.webp"
+              alt="Rec 2"
+            />
+            <div class="rec-overlay">
+              <div class="rec-stats">
+                <span>❤️ 42k</span>
+                <span>💬 1.1k</span>
+              </div>
+              <button class="rec-follow">+</button>
+            </div>
+          </div>
+          <div class="rec-card">
+            <img
+              src="./Assets/tech reel_11zon.webp"
+              alt="Rec 3"
+            />
+            <div class="rec-overlay">
+              <div class="rec-stats">
+                <span>❤️ 8k</span>
+                <span>💬 90</span>
+              </div>
+              <button class="rec-follow">+</button>
+            </div>
+          </div>
+          <div class="rec-card">
+            <img
+              src="./Assets/noodles_11zon_11zon.webp"
+              alt="Rec 4"
+            />
+            <div class="rec-overlay">
+              <div class="rec-stats">
+                <span>❤️ 21k</span>
+                <span>💬 450</span>
+              </div>
+              <button class="rec-follow">+</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-grid">
+        <div class="footer-brand gsap-contact">
+          <div class="logo" style="margin-bottom: 20px">
+            <a href="./index2.html">
+              <img
+                src="./Assets/logo.webp"
+                alt="News Technology Logo"
+                style="max-width: 180px"
+              />
+            </a>
+          </div>
+          <!-- <h2 class="footer-logo">MED<span>DEVICE</span></h2> -->
+          <p>
+            Covering the latest breakthroughs in artificial intelligence,
+            consumer electronics, and digital innovation. Our platform delivers
+            real-time updates, expert insights, and in-depth analysis of the
+            technologies shaping the future.
+          </p>
+        </div>
+
+        <div class="footer-links gsap-contact">
+          <h4>Quick Links</h4>
+
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+          <a href="./login2.html">Login</a>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="./explore.html">Explore</a>
+          <a href="./creators.html">Creators</a>
+          <a href="./reels.html">Reels</a>
+          <a href="./communities.html">Communities</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>
+            Stay updated with the latest technology Updates, trends, and
+            innovations.
+          </p>
+          <form action="./error2.html">
+            <div class="news-input">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">→</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Innovations. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="./error2.html">Privacy Policy</a>
+          <a href="./error2.html">ISO Compliance</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+    easing: "ease-out-cubic",
+    startEvent: "aos:ready", // manual trigger
+  });
+</script>
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  window.addEventListener("load", () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // 1. Entrance Animations for Text
+    const tl = gsap.timeline();
+    tl.from(".reels-hero-text > *", {
+      x: -50,
+      opacity: 1,
+      stagger: 0.2,
+      duration: 1,
+      ease: "power4.out",
+    });
+
+    // 2. Loop Animation for Film Strip Column 1 (Going UP)
+    gsap.to(".column-up", {
+      y: "-50%", // Half of total height if items are duplicated
+      duration: 15,
+      ease: "none",
+      repeat: -1,
+    });
+
+    // 3. Loop Animation for Film Strip Column 2 (Going DOWN)
+    gsap.fromTo(
+      ".column-down",
+      { y: "-50%" },
+      { y: "0%", duration: 15, ease: "none", repeat: -1 },
+    );
+
+    // 4. Parallax effect based on Mouse Position
+    document.addEventListener("mousemove", (e) => {
+      const xPos = (e.clientX / window.innerWidth - 0.5) * 20;
+      const yPos = (e.clientY / window.innerHeight - 0.5) * 20;
+
+      gsap.to(".reels-visual-strip", {
+        x: xPos,
+        y: yPos,
+        duration: 1.5,
+        ease: "power2.out",
+      });
+    });
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener("load", () => {
+    // 1. Reel Feed Pop-in
+    gsap.from(".feed-container", {
+      scale: 0.8,
+      opacity: 1,
+      duration: 1,
+      ease: "back.out(1.7)",
+    });
+
+    // 2. Trending Slider Stagger
+    gsap.from(".trend-item", {
+      scrollTrigger: {
+        trigger: ".trending-reels-section",
+        start: "top 85%",
+      },
+      x: 50,
+      opacity: 1,
+      stagger: 0.1,
+      duration: 0.8,
+      ease: "power2.out",
+    });
+
+    // 3. Music List Entry
+    gsap.from(".music-item", {
+      scrollTrigger: {
+        trigger: ".music-library-section",
+        start: "top 85%",
+      },
+      y: 30,
+      opacity: 1,
+      stagger: 0.2,
+      duration: 0.6,
+      ease: "power1.out",
+    });
+  });
+</script>
+
+<script>
+  gsap.from(".trend-item", {
+    scrollTrigger: {
+      trigger: ".trending-slider",
+      start: "top 90%",
+    },
+    opacity: 1,
+    y: 20,
+    stagger: 0.05,
+    duration: 0.6,
+    ease: "power2.out",
+  });
+</script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener("load", () => {
+    // Reveal Highlight Banner
+    gsap.from(".highlight-banner", {
+      scrollTrigger: {
+        trigger: ".highlights-section",
+        start: "top 80%",
+      },
+      opacity: 1,
+      y: 50,
+      duration: 1,
+      ease: "power3.out",
+    });
+
+    // Stagger Reveal Recommended Cards
+    gsap.from(".rec-card", {
+      scrollTrigger: {
+        trigger: ".rec-grid",
+        start: "top 85%",
+      },
+      scale: 0.9,
+      opacity: 1,
+      stagger: 0.15,
+      duration: 0.8,
+      ease: "back.out(1.7)",
+    });
+
+    // Interaction Logic: Like Button Toggle
+    document.querySelectorAll(".engage-btn").forEach((btn) => {
+      btn.addEventListener("click", function () {
+        if (this.innerText.includes("❤️")) {
+          this.style.color = "goldenrod";
+          gsap.to(this, { scale: 1.2, duration: 0.1, yoyo: true, repeat: 1 });
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  document.querySelectorAll(".rec-follow").forEach((btn) => {
+    btn.addEventListener("click", function () {
+      if (this.innerHTML === "Follow") {
+        this.innerHTML = "✓";
+        this.style.background = "goldenrod"; // Darkred theme
+        this.style.color = "white";
+      } else {
+        // Toggle back to original state
+        this.innerHTML = "Follow";
+        this.style.background = "";
+        this.style.color = "";
+      }
+    });
+  });
+</script>
