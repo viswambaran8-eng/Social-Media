@@ -894,6 +894,12 @@ main {
   margin-bottom: 15px;
 }
 
+.reels-search form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .reels-search input {
   background: transparent;
   border: none;

@@ -942,6 +942,11 @@ body.no-scroll {
   cursor: pointer;
 }
 
+.social-icons span:hover {
+  background-color: #333;
+  color: goldenrod;
+}
+
 /* --- Media Queries (Mobile Optimization) --- */
 @media (max-width: 992px) {
   .contact-container {

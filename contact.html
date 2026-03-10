@@ -131,7 +131,7 @@
 
     <div class="overlay" id="overlay"></div>
 
-<main></main>
+    <main></main>
 
     <section class="contact-hero">
       <div class="hero-content">
@@ -141,10 +141,7 @@
         </p>
       </div>
       <div class="hero-image">
-        <img
-          src="./Assets/4K Uploadsall_11zon.webp"
-          alt="all"
-        />
+        <img src="./Assets/4K Uploadsall_11zon.webp" alt="all" />
       </div>
     </section>
 
@@ -185,7 +182,15 @@
             >support@socialsphere.com</a
           >
           <div class="social-icons">
-            <span>IG</span> <span>TW</span> <span>FB</span>
+            <a href="./error.html">
+              <span>IG</span>
+            </a>
+            <a href="./error.html">
+              <span>TW</span>
+            </a>
+            <a href="./error.html">
+              <span>FB</span>
+            </a>
           </div>
         </div>
       </section>
@@ -229,10 +234,7 @@
         <h2 class="section-title">Our Headquarters</h2>
         <p>123 Innovation Drive, Silicon Valley, CA</p>
         <div class="map-placeholder">
-          <img
-            src="./Assets/map_11zon.webp"
-            alt=" Map View"
-          />
+          <img src="./Assets/map_11zon.webp" alt=" Map View" />
           <div class="map-overlay">
             <div class="location-pin"></div>
           </div>
@@ -404,53 +406,53 @@
 
 <script>
   // FAQ Accordion Logic
-document.querySelectorAll('.faq-item').forEach(item => {
-    item.addEventListener('click', () => {
-        const isActive = item.classList.contains('active');
-        
-        // Close all items
-        document.querySelectorAll('.faq-item').forEach(el => {
-            el.classList.remove('active');
-            el.querySelector('.icon').innerText = '+';
-        });
+  document.querySelectorAll(".faq-item").forEach((item) => {
+    item.addEventListener("click", () => {
+      const isActive = item.classList.contains("active");
 
-        // Open clicked if it wasn't active
-        if (!isActive) {
-            item.classList.add('active');
-            item.querySelector('.icon').innerText = '−';
-        }
+      // Close all items
+      document.querySelectorAll(".faq-item").forEach((el) => {
+        el.classList.remove("active");
+        el.querySelector(".icon").innerText = "+";
+      });
+
+      // Open clicked if it wasn't active
+      if (!isActive) {
+        item.classList.add("active");
+        item.querySelector(".icon").innerText = "−";
+      }
     });
-});
+  });
 
-// GSAP Scroll Animations
-window.addEventListener('load', () => {
+  // GSAP Scroll Animations
+  window.addEventListener("load", () => {
     // Animate FAQ items on scroll
     gsap.from(".faq-item", {
-        scrollTrigger: ".faq-container",
-        opacity: 1,
-        x: -50,
-        stagger: 0.15,
-        duration: 0.8,
-        ease: "power2.out"
+      scrollTrigger: ".faq-container",
+      opacity: 1,
+      x: -50,
+      stagger: 0.15,
+      duration: 0.8,
+      ease: "power2.out",
     });
 
     // Animate Map Section
     gsap.from(".map-placeholder", {
-        scrollTrigger: ".map-section",
-        scale: 0.9,
-        opacity: 1,
-        duration: 1,
-        ease: "power3.out"
+      scrollTrigger: ".map-section",
+      scale: 0.9,
+      opacity: 1,
+      duration: 1,
+      ease: "power3.out",
     });
 
     // Animate Social Cards
     gsap.from(".social-card", {
-        scrollTrigger: ".social-grid",
-        y: 30,
-        opacity: 1,
-        stagger: 0.2,
-        duration: 0.6,
-        ease: "back.out(1.7)"
+      scrollTrigger: ".social-grid",
+      y: 30,
+      opacity: 1,
+      stagger: 0.2,
+      duration: 0.6,
+      ease: "back.out(1.7)",
     });
-});
+  });
 </script>
