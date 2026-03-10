@@ -25,7 +25,7 @@ hamburger.addEventListener("click", () => {
         // Small delay to allow sidebar to slide in before AOS starts
         setTimeout(() => {
             AOS.refreshHard();
-        }, 500);
+        }, 100);
     }
 });
 
